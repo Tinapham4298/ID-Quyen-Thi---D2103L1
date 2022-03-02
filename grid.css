@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+#wrapper{
+    height:min-content;
+    background-color:black;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    /* position:relative; */
+    /* height:800px; */
+    /* background-color:black; */
+}
+.body{
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight:400;
+    color:black;
+    font-size:18px;
+    line-height:30px;
+}
+/* ---------------------------------- COLOR---------------------------------- */
+.text-primary{
+    color:#7854F7;
+}
+.bg-primary{
+    background-color: #7854F7;
+}
+.bg-success{
+    background-color:#70C217;
+}
+.color-white{
+    color:white;
+}
+/* ----------------------------------Paragraph---------------------------------- */
+h1,h2,h3,h4,h5,h6{
+    /* color:#272D4E; */
+}
+.h1{
+    font-size:15px;
+    line-height:95px;
+    /* font-family:Circular Std; */
+    font-weight:700;
+    letter-spacing:;
+    word-spacing:;
+}
+.h2{
+    font-size:55px;
+    line-height:70px;
+    letter-spacing:;
+    word-spacing:;
+}
+.h3{
+    font-size:36px;
+    /* line-height:7px; */
+    letter-spacing:;
+    word-spacing:;
+}
+.p{
+    font-size:18px;
+    color:lightgrey;
+    letter-spacing:;
+    word-spacing:;
+}
+/* ----------------------------------N E W---------------------------------- */
+.simple-link{
+    color: #272D4E;
+    font-size:18px;
+    font-weight:500;
+}
+.btn{
+    color:white;
+    font-size:18px;
+    font-weight:500;
+}
+.btn-sm-primary{
+    padding: 12px 16px;
+    background-color: #7854F7;
+    border-radius: 10px;
+    /* margin-left: 15px; */
+}
+.btn-lg-primary{
+    padding: 24px 60px;
+    background-color: #7854F7;
+    border-radius:60px;
+}
+.btn-lg-success{
+    padding:24px 32px;
+}
+a{
+    color:black;
+    text-decoration:none;
+    font-weight:700;
+    font-size:22px;
+}
+/*---------------------------------- ROW----------------------------------*/
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+}
+.row>[class*-"col-"]{
+    padding:12px;
+}
+/*---------------------------------- FLEX---------------------------------- */
+.center{
+    text-align: center;
+}
+/*  -------------------------------------------align item */
+.align-item-bottom{
+    align-items: flex-end;
+}
+.align-item-top{
+    align-items: flex-start;
+}
+.align-item-center{
+    align-items:center;
+}
+/* --------------------------------------------align self */
+.align-self-center{
+    align-self:center;
+}
+.align-self-bottom{
+    align-items: flex-end;
+}
+.align-self-top{
+    align-items: flex-start;
+}
+/* ------------------------------------------- align content */
+.align-content-bottom{
+    align-content: flex-end;
+}
+.align-content-top{
+    align-content: flex-start;
+}
+.align-content-center{
+    align-content:center;
+}
+/*  -------------------------------------------JUSTIFY */
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-end{
+    justify-content:flex-end;
+}
+.justify-between{
+    justify-content:space-between;
+}
+.justify-around{
+    justify-content:space-around;
+}
+/* ----------------------------------TEXT------------------------------ */
+.text-center{
+    text-align:center;
+}
+.text-right{
+    text-align:right;
+}
+.text-left{
+    text-align:left;
+}
+/* ----------------------------------C O L U M N------------------------------ */
+.col-1{
+    width: 8.33%
+}
+.col-2{
+    width: 16.66%
+}
+.col-3{
+    width: 25%
+}
+.col-4{
+    width: 33.33%
+}
+.col-5{
+    width: 41.66%
+}
+.col-6{
+    width: 50%
+}
+.col-7{
+    width: 58.33%
+}
+.col-8{
+    width: 64.66%
+}
+.col-9{
+    width: 75%
+}
+.col-10{
+    width: 83.33%
+}
+.col-11{
+    width: 91.66%
+}
+.col-12{
+    width: 100%
+}
+/* ------------------------------- */
+.mx-4{
+    margin:0 32px;
+}
